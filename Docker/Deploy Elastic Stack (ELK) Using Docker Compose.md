@@ -98,7 +98,7 @@ services:  # Defines the services to be deployed
     environment:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200  # Connects Kibana to Elasticsearch
       - ELASTICSEARCH_USERNAME=elastic  # Sets Elasticsearch username
-      - ELASTICSEARCH_PASSWORD=D1g15ervE  # Sets Elasticsearch password
+      - ELASTICSEARCH_PASSWORD=R4h4s1APWD  # Sets Elasticsearch password
       - xpack.security.enabled=true  # Enables security features for Kibana
     ports:
       - "5601:5601"  # Maps port 5601 for Kibana UI
