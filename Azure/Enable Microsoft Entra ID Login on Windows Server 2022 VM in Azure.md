@@ -1,3 +1,4 @@
+
 # Enable Microsoft Entra ID Login on Windows Server 2022 VM in Azure
 
 This guide explains how to enable **Microsoft Entra ID** (formerly Azure Active Directory) login on a **Windows Server 2022** VM in Azure. By following these steps, users will be able to authenticate using their Entra ID credentials.
@@ -60,3 +61,4 @@ After configuring Azure, you need to enable **Microsoft Entra ID login** on the 
 
    ```powershell
    dsregcmd /status
+   ```
