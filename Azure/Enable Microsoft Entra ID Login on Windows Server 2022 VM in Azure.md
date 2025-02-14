@@ -58,7 +58,29 @@ After configuring Azure, you need to enable **Microsoft Entra ID login** on the 
 ### ✅ **Check if the VM is Joined to Microsoft Entra ID**
 1. Open **PowerShell** as **Administrator** on the VM.
 2. Run the following command:
-
    ```powershell
    dsregcmd /status
    ```
+   Ensure that the **AzureAdJoined** and **EnterpriseJoined** statuses are set to **YES**.
+
+3. Configure local policies to allow Azure AD users to log in:
+   - Go to **Computer Management** > **Local Users and Groups** > **Groups**.
+   - Add Azure AD users/groups to the **Remote Desktop Users** group (or **Administrators** group if admin access is needed).
+
+---
+
+## 🖥️ **Log In Using Microsoft Entra ID Credentials**
+
+1. Open **Remote Desktop Connection** on the user’s machine.
+2. Enter the Entra ID username as:
+   ```
+   AzureAD\YourUsername@domain.com
+   ```
+3. Enter the Entra ID password when prompted.
+
+---
+
+## 🔍 **Troubleshooting Tips**
+- **Check NSGs**: Ensure RDP (port 3389) is allowed.
+- **Azure AD Join Status**: Run `dsregcmd /status` to verify.
+- **Role Propagation Delay**: Role assignments might take a few minutes to apply.
