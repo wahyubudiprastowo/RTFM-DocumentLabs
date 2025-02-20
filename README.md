@@ -1,9 +1,9 @@
 
 # 👋 Hi there, I'm Wahyu Budi Prastowo
 
-> **IT Infrastructure Specialist | Cloud Security Specialist | Azure Cloud Engineer | Senior System Administrator**  
-> "Architecting secure, scalable, and high-performance cloud solutions while driving automation and innovation." 🚀  
-> Passionate about optimizing infrastructure performance, automating workflows, and ensuring security in cloud environments.
+> **IT Infrastructure Specialist | Cloud Security | Azure Cloud Engineer | Senior System Administrator**  
+> "Architecting secure, scalable, and high-performance cloud solutions while driving automation and innovation."  
+> Passionate about optimizing infrastructure performance, automating workflows, and ensuring security in cloud environments. 🚀
 
 I specialize in **cloud security, infrastructure automation, and DevSecOps**, focusing on **Microsoft Azure, IT security, and high-availability systems**. With over **10 years of experience**, I have successfully led projects in **cloud migration, security compliance, threat detection, and network optimization**.
 
