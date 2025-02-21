@@ -68,11 +68,6 @@ I specialize in **cloud security, infrastructure automation, and DevSecOps**, fo
 - ✅ Developed **security monitoring dashboards** using **Azure Sentinel & Microsoft Defender for Cloud**.
 - ✅ Automated **compliance & risk assessments** with **Azure Policy & Security Baselines**.
 
-### 🔹 **Cloud Infrastructure Automation & DevOps**
-- 🚀 Developed **Infrastructure as Code (IaC)** solutions using **Terraform**.
-- 🔧 Automated **server provisioning & security patching** with **Ansible & PowerShell DSC**.
-- ⚙ Reduced **deployment time by 60%** through **CI/CD pipeline automation**.
-
 ### 🔹 **Cloud Migration & High-Availability Architecture**
 - 🔐 Led **multi-cloud migrations** from on-premises to **Azure and GCP**, ensuring **99.99% uptime**.
 - 🏢 Designed **high-availability Kubernetes clusters** with **Azure Kubernetes Service (AKS)**.
@@ -111,7 +106,7 @@ I am always open to **collaborations, freelance work, consulting opportunities, 
 
 📧 **Business Inquiries:** wahyubudiprastowo@gmail.com  
 💼 **LinkedIn:** [linkedin.com/in/wahyubudiprastowo](https://www.linkedin.com/in/wahyubudiprastowo)  
-🌐 **Website:** [wahyubudiprastowo.com](http://wahyubudiprastowo.com)  
+🌐 **Git Profile:** [wahyubudiprastowo](https://github.com/wahyubudiprastowo)  
 
 🔹 **Let’s build the future of secure, scalable, and high-performing cloud infrastructure together! 🚀**
 
