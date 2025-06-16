@@ -1,5 +1,5 @@
 
-# VM Deployment with AzCli in Azure Stack Hub From VHD (Detailed Tutorial)
+# VM Deployment with PS AzCli in Azure Stack Hub From VHD (Detailed Tutorial)
 
 This guide provides a detailed explanation of Azure CLI commands used to register a hybrid cloud, manage resources, and create virtual machines (VMs) with unmanaged disks.
 
