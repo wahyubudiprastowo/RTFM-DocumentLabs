@@ -1,0 +1,26 @@
+version: '3.6'
+services:
+  gitlab:
+    image: gitlab/gitlab-ce:17.8.1-ce.0
+    container_name: gitlab
+    restart: always
+    ports:
+      - '6022:22'
+      - '6443:6443'
+    # minimal shm size required for Prometheus
+    shm_size: 256m
+    environment:
+      # disable ssh port
+      GITLAB_OMNIBUS_CONFIG: |
+        letsencrypt['enable'] = false
+        gitlab_rails['gitlab_shell_ssh_port'] = 6022
+        external_url 'https://10.90.4.40:6443'
+        gitlab_rails['time_zone'] = 'Asia/Jakarta'
+        gitlab_rails['lfs_enabled'] = true
+        nginx['redirect_http_to_https'] = true
+        gitlab_rails['gitlab_username_changing_enabled'] = false
+    volumes:
+      - './gitlab/config:/etc/gitlab:z'
+      - './gitlab/config/ssl:/etc/gitlab/ssl:z'
+      - './gitlab/logs:/var/log/gitlab:z'
+      - './gitlab/data:/var/opt/gitlab:z'
