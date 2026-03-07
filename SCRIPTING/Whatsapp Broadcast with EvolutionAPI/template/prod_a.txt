@@ -1,0 +1,4 @@
+Hello {{name}},
+
+This is a follow-up from our team regarding your request.
+Please reply to this message if you would like us to continue.

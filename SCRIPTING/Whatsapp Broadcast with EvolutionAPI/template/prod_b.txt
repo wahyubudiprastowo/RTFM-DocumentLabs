@@ -1,0 +1,4 @@
+{{spintext:Hello|Hi|Good day}} {{name}},
+
+We are following up on your request.
+{{spintext:Please reply if you need help.|Let us know if you would like assistance.}}

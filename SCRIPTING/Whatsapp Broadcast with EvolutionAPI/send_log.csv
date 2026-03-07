@@ -1,0 +1,7 @@
+ts,phone,name,campaign_id,env_name,template,status_code,success
+2026-03-06T00:50:32,62899XXXXXX,PT Primari Inrahm Utama  Fabrikator Baja Infrastruktur,2026-03-followup-01,prod,templates/prod_b.txt,200,1
+2026-03-06T01:02:24,62897XXXXXX,PT ILAMOS PASIFIK INDONESIA,2026-03-followup-01,prod,templates/prod_b.txt,200,1
+2026-03-06T01:11:07,62896XXXXXX,Attiin Nabila Tour & Travel (PT. Attiin Nabila Utama.),2026-03-followup-01,prod,templates/prod_c.txt,200,1
+2026-03-06T01:18:28,62896XXXXXX,BINA BANGUN BANGSA,2026-03-followup-01,prod,templates/prod_a.txt,200,1
+2026-03-06T01:29:31,62896XXXXXX8,PT. Aurora Consultancy Group,2026-03-followup-01,prod,templates/prod_a.txt,200,1
+2026-03-06T03:00:04,6289XXXXXX,PT Admin Pajak Teknologi,2026-03-followup-01,prod,templates/prod_c.txt,200,1
