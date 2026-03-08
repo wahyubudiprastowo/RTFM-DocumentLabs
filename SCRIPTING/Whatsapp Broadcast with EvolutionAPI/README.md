@@ -746,18 +746,6 @@ If another process is already running, the new process exits immediately.
 
 ---
 
-## ⏲️ Cron Example
-
-Run every 10 minutes:
-
-```cron
-*/10 * * * * cd /opt/broadcast-engine && /opt/broadcast-engine/.venv/bin/python3 broadcast.py send >> cron.log 2>&1
-```
-
-Because the engine has its own lock file, overlapping cron triggers will not result in two active senders at the same time.
-
----
-
 ## 🧰 Troubleshooting
 
 ### 1. No message is being sent
